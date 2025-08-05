@@ -1,27 +1,32 @@
-🧕 Hijab Fashion Website
-A fully responsive and modern Hijab fashion website built using HTML, CSS, and Bootstrap. This project focuses on showcasing modest fashion for women through a clean, elegant, and mobile-friendly design. It is ideal for small businesses, online hijab stores, or personal fashion portfolios.
+# HijabHub PK – Modest Fashion Website
 
-🌟 Features
-Responsive Layout – Powered by Bootstrap for seamless display across all devices
+**HijabHub PK** is a modern and elegant hijab fashion website built using **HTML**, **CSS**, and **Bootstrap**. It promotes modest wear through a clean, responsive, and accessible layout suitable for all devices.
 
-Hero Section – Attractive homepage banner highlighting featured collections
+**Live Site:** [https://hijabhubpk.netlify.app/](https://hijabhubpk.netlify.app/)
 
-Product Sections – Organized display of hijab categories (e.g., Casual, Printed, Formal)
+---
 
-Navigation Bar – Fully functional and responsive navbar with dropdowns
+## Features
 
-Contact Form – Simple contact section for inquiries or feedback
+- Fully responsive layout using Bootstrap 5  
+- Stylish homepage with product highlights  
+- Clean navigation bar with dropdown menus  
+- Organized sections for various hijab styles  
+- Contact form (HTML layout)  
+- Smooth hover effects and transitions
 
-Bootstrap Components – Utilizes cards, grid system, buttons, and more for UI consistency
+---
 
-Clean & Structured Code – Easy to read and customize
+## Technologies Used
 
-🛠️ Technologies Used
-HTML5 – For the structure of the web pages
+- HTML5 – Semantic structure and layout  
+- CSS3 – Custom styling  
+- Bootstrap 5 – Responsive design and pre-built components
 
-CSS3 – For additional custom styling
+---
 
-Bootstrap 5 – For responsive design and pre-built components
+## Purpose
 
-📌 Project Goal
-The goal of this project is to create a stylish and professional website that promotes modest fashion and provides a great user experience. It's suitable as a front-end template for online hijab stores or as a learning project for beginners exploring web development with Bootstrap.
+This project was created to support modest fashion by providing a clean, user-friendly front-end experience. It serves as a beginner-friendly website template suitable for small fashion businesses or front-end development practice.
+
+
