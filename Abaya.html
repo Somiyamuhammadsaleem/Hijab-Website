@@ -1,133 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abayas</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-</head>
-<body>
- <style>
-        nav.navbar.container-nav {
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        nav.navbar {
             background-color: #EAD9C3;
+        }
+
+        .navbar .nav-link {
             color: black;
         }
-     button{
-    background-color: #EAD9C3;
-    color: black;
-    outline: black;
-    height: 50px;
-    width: 120px;
-    border-radius: 30px;
-    font-size: large;
-    font-weight: bold;
-  }
 
+        .navbar-brand {
+            color: white;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+
+        .card button {
+            background-color: #EAD9C3;
+            color: black;
+            border: 2px solid black;
+            height: 50px;
+            width: 120px;
+            border-radius: 30px;
+            font-size: large;
+            font-weight: bold;
+        }
     </style>
+</head>
 
-    <nav class="navbar  navbar-expand-lg container-nav p-2 px-5  fixed-top">
-        <a class="navbar-brand text fw-bold text-white" href="#">
-            <img src="Assets/hijab (1).png" width="30" height="24" class="d-inline-block align-text-top">
-            HijabHub.pk</a>
-   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-  <span class="text-dark fs-3">☰</span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="d-flex justify-content-between align-items-center w-100 px-3">
+
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="Assets/hijab (1).png" width="30" height="24" class="d-inline-block align-text-top" />
+                HijabHub.pk
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end px-3" id="navMenu">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active pill text-dark" href="index.html">Home</a>
-                </li>
-                <li class="nav-item"><a class="nav-link active pill text-dark" href="hijab.html">Hijabs</a> </li>
-                <li class="nav-item"><a class="nav-link active pill text-dark" href="Abaya.html">Abayas</a> </li>
-                <li class="nav-item"><a class="nav-link active pill text-dark" href="Accessories.html"> Accessories </a></li>
-                <li class="nav-item"> <a class="nav-link active pill text-dark" href="contact.html">Contact</a> </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="hijab.html">Hijabs</a></li>
+                <li class="nav-item"><a class="nav-link" href="Abaya.html">Abayas</a></li>
+                <li class="nav-item"><a class="nav-link" href="Accessories.html">Accessories</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
-    </nav>
-<br>
-<br> <br>
-<h1 class="text-center text-dark fw-bold">Our Abaya Collection</h1> <br>
-<div class="container bg-light row align-items-center  mx-auto">
+    </nav><br>
+    <br> <br>
+    <h1 class="text-center text-dark fw-bold">Our Abaya Collection</h1> <br>
+    <div class="container bg-light row align-items-center  mx-auto">
+        <div class="card mx-auto mt-4" style="width:18rem" ;>
+            <img src="Assets/olive.jpg" width="100px" height="380px" class="card-img-top pt-4" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center pt-3">Olive Green Abaya With Embroidery</h5>
+                <p class="card-text text-center">This olive green abaya has been manufactured using thick luxury
+                    fabric,perfect for layering.The abaya has been decorated with white embroidery along the sleeves.
+                    Designed with pockets and a concealed long zip along the chest making it friendly.
+                    This abaya comes as a 3 piece set with the slip made from a silk crepe fabric.
+                </p>
+                <div class="text-center">
+                    <button type="text">Price:3500</button>
+                </div>
+            </div>
+        </div>
+        <div class="card mx-auto mt-4" style="width:18rem" ;>
+            <img src="Assets/abaya 1.JPG" width="100px" height="380px" class="card-img-top pt-4" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center pt-3">Conqueete Bow Embroidery Abaya</h5>
+                <p class="card-text text-center">Make a bold yet graceful statement in our Mehroon Bow Abaya,featuring
+                    soft white embroidery and a feminine bow-tie front.
+                    Deep, elegant color that complements all skin tones perfect for formal or festive occasions.A tied
+                    bow at the front or waist enhances the feminine silhouette while keeping things modest.
+                </p>
+                <div class="text-center">
+                    <button type="text">Price:2500</button>
+                </div>
+            </div>
+        </div>
 
-<div class="card mx-5 mt-2" style="width:18rem";>
-<img src="Assets/olive.jpg" width="100px" height="380px"  class="card-img-top pt-4" alt="">
-<div class="card-body">
-<h5 class="card-title text-center pt-3">Olive Green Abaya With Embroidery</h5> 
-<p class="card-text text-center">This olive green abaya has been manufactured using thick luxury fabric,perfect for layering.The abaya has been decorated with white embroidery along the sleeves. Designed with pockets and a concealed long zip along the chest, making it breastfeeding friendly. 
-    This abaya comes as a 3 piece set with the slip made from a silk crepe fabric. 
-</p>
-<div class="text-center">
-    <button type="text">Price:3500</button>
-</div>
-</div>
-</div>
 
-<div class="card mx-2 mt-2" style="width:18rem";>
-<img src="Assets/abaya 1.JPG" width="100px" height="380px"  class="card-img-top pt-4" alt="">
-<div class="card-body">
-<h5 class="card-title text-center pt-3"> Conqueete Bow Embroidery Abaya</h5> 
-<p class="card-text text-center">Make a bold yet graceful statement in our Mehroon Bow Abaya,featuring soft white embroidery and a feminine bow-tie front.
-Deep, elegant color that complements all skin tones perfect for formal or festive occasions.A tied bow at the front or waist enhances the feminine silhouette while keeping things modest.</p>
-<div class="text-center">
-    <button type="text">Price:2500</button>
-</div>
-</div>
-</div>
+        <div class="card mx-auto mt-4" style="width:18rem" ;>
+            <img src="Assets/emira abaya.JPG" width="100px" height="380px" class="card-img-top pt-4" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center pt-3"> Emira Puffed Sleeves Abaya</h5>
+                <p class="card-text text-center">Elevate your modest wardrobe with the Emira Puffed Sleeves Abaya a
+                    beautiful blend of classic modesty and contemporary elegance.
+                    Soft Korean Georgette Fabric Lightweight, breathable, and perfect for all-day comfort with an
+                    elegant fall.Flattering volume at the sleeves,offering both style and functionality </p>
+                <div class="text-center">
+                    <button type="text">Price:1800</button>
+                </div>
+            </div>
+        </div>
+        <div class="card mx-auto mt-5" style="width:18rem" ;>
+            <img src="Assets/abaya 3.JPG" width="100px" height="380px" class="card-img-top pt-4" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center pt-3">Baggy Abaya</h5>
+                <p class="card-text text-center">The Baggy Abaya is the perfect blend of relaxed fit and elegant
+                    crafted for women who value comfort without compromising on style.Designed to fall effortlessly the
+                    body provides full coverage while staying
+                    breathable.
+                </p>
+                <div class="text-center">
+                    <button type="text">Price:2000</button>
+                </div>
+            </div>
+        </div>
 
-<div class="card mx-5 mt-2" style="width:18rem";>
-<img src="Assets/emira abaya.JPG" width="100px" height="380px"  class="card-img-top pt-4" alt="">
-<div class="card-body">
-<h5 class="card-title text-center pt-3"> Emira Puffed Sleeves Abaya</h5> 
-<p class="card-text text-center">Elevate your modest wardrobe with the Emira Puffed Sleeves Abaya a beautiful blend of classic modesty and contemporary elegance.
-Soft Korean Georgette Fabric Lightweight, breathable, and perfect for all-day comfort with an elegant fall.Flattering volume at the sleeves,offering both style and functionality </p>
-<div class="text-center">
-    <button type="text">Price:1800</button>
-</div>
-</div>
-</div>
-<div class="card mx-5 mt-5" style="width:18rem";>
-<img src="Assets/abaya 3.JPG" width="100px" height="380px"  class="card-img-top pt-4" alt="">
-<div class="card-body">
-<h5 class="card-title text-center pt-3">Baggy Abaya</h5> 
-<p class="card-text text-center">The Baggy Abaya is the perfect blend of relaxed fit and elegant flow, crafted for women who value comfort without compromising on modesty and style.
-Designed to fall effortlessly over the body — provides full coverage while staying breathable and airy.
-</p>
-<div class="text-center">
-    <button type="text">Price:2000</button>
-</div>
-</div>
-</div>
+        <div class="card mx-auto mt-5" style="width:18rem" ;>
+            <img src="Assets/velaro abaya.JPG" width="100px" height="380px" class="card-img-top pt-4" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center pt-3">Velaro Collar Pleated Abaya</h5>
+                <p class="card-text text-center">Elevate your modest wardrobe with this refined abaya, designed for
+                    sophistication and everyday elegance.
+                    Front Collar Buttoned Design with neat pleats and cuffed sleeves for a chic, structured look
+                </p>
+                <div class="text-center">
+                    <button type="text">Price:2200</button>
+                </div>
+            </div>
+        </div>
+        <div class="card mx-auto mt-5" style="width:18rem" ;>
+            <img src="Assets/abaya2.JPG" width="100px" height="380px" class="card-img-top pt-4" alt="">
+            <div class="card-body">
+                <h5 class="card-title text-center pt-3">Black Pocket Abaya</h5>
+                <p class="card-text text-center">Crafted from premium Nida fabric, this abaya features a full-length
+                    front zipper and discreet side pockets.
+                    This lightweight georgette abaya features a button-down front and side pockets, combining comfort
+                    with a sleek design.
+                </p>
+                <div class="text-center">
+                    <button type="text">Price:1900</button>
+                </div>
+            </div>
+        </div>
 
-<div class="card mx-3 mt-5" style="width:18rem";>
-<img src="Assets/velaro abaya.JPG" width="100px" height="380px"  class="card-img-top pt-4" alt="">
-<div class="card-body">
-<h5 class="card-title text-center pt-3">Velaro Collar Pleated Abaya</h5> 
-<p class="card-text text-center">Elevate your modest wardrobe with this refined abaya, designed for sophistication and everyday elegance.
-Front Collar Buttoned Design with neat pleats and cuffed sleeves for a chic, structured look
-</p>
-<div class="text-center">
-    <button type="text">Price:2200</button>
-</div>
-</div>
-</div>
-<div class="card mx-5 mt-5" style="width:18rem";>
-<img src="Assets/abaya2.JPG" width="100px" height="380px"  class="card-img-top pt-4" alt="">
-<div class="card-body">
-<h5 class="card-title text-center pt-3">Black Pocket Abaya</h5> 
-<p class="card-text text-center">Crafted from premium Nida fabric, this abaya features a full-length front zipper and discreet side pockets. 
-    This lightweight georgette abaya features a button-down front and side pockets, combining comfort with a sleek design.
-</p>
-<div class="text-center">
-    <button type="text">Price:1900</button>
-</div>
-</div>
-</div>
-
-</div>
-<br>
-<footer style="background-color: #EAD9C3;">
+    </div>
+    <br>
+    <footer style="background-color: #EAD9C3;">
         <div class="container p-4">
             <div class="row">
 
@@ -138,36 +168,32 @@ Front Collar Buttoned Design with neat pleats and cuffed sleeves for a chic, str
                         essentials</p>
                 </div>
                 <div class="col-md-4">
-                <h5 class="fw-bold mb-3">Quicklinks</h5>
-                <ul class="list-unstyled">
-                    <li> <a href="index.html" class="text-dark text-decoration-none">Home</a></li>
-                    <li> <a href="hijab.html" class="text-dark text-decoration-none">Hijabs</a></li>
-                    <li> <a href="Abaya.html" class="text-dark text-decoration-none">Abayas</a></li>
-                    <li> <a href="Accessories.html" class="text-dark text-decoration-none">Accessories</a></li>
-                    <li> <a href="Accessories.html" class="text-dark text-decoration-none">Contact</a></li>
-                </ul>
-            </div>
-<div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Quicklinks</h5>
+                    <ul class="list-unstyled">
+                        <li> <a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+                        <li> <a href="hijab.html" class="text-dark text-decoration-none">Hijabs</a></li>
+                        <li> <a href="Abaya.html" class="text-dark text-decoration-none">Abayas</a></li>
+                        <li> <a href="Accessories.html" class="text-dark text-decoration-none">Accessories</a></li>
+                        <li> <a href="Accessories.html" class="text-dark text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">ContactUs</h5>
                     <p> Support@HijabHub.pk</p>
                     <p>+92 341 275 5097</p>
                     <p>Karachi,Pakistan</p>
-</div>
-<hr>
-<div class="text-center "> @2025 HijabHub.pk.All Rights Reserved</div>
+                </div>
+                <hr>
+                <div class="text-center "> @2025 HijabHub.pk.All Rights Reserved</div>
 
-        </div>
+            </div>
         </div>
     </footer>
 
+    <br>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-<br>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    
 </body>
+
 </html>

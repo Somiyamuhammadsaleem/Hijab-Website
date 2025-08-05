@@ -5,38 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HijabHub.pk</title>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <style>
+        nav.navbar {
+            background-color: #EAD9C3;
+        }
+
+        .navbar .nav-link {
+            color: black;
+        }
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+    </style>
 </head>
 
 <body>
-    <style>
-        nav.navbar.container-nav {
-            background-color: #EAD9C3;
-            color: black;
-        }
-    </style>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="d-flex justify-content-between align-items-center w-100 px-3">
 
-    <nav class="navbar  navbar-expand-lg container-nav p-2 px-5  fixed-top">
-        <a class="navbar-brand text fw-bold text-white" href="#">
-            <img src="Assets/hijab (1).png" width="30" height="24" class="d-inline-block align-text-top">
-            HijabHub.pk</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-  <span class="text-dark fs-3">☰</span>
-</button>
-<br><br>
-        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="Assets/hijab (1).png" width="30" height="24" class="d-inline-block align-text-top">
+                HijabHub.pk
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end px-3" id="navMenu">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link active pill text-dark" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link active pill text-dark" href="hijab.html">Hijabs</a> </li>
-                <li class="nav-item"><a class="nav-link active pill text-dark" href="Abaya.html">Abayas</a> </li>
-                <li class="nav-item"><a class="nav-link active pill text-dark" href="Accessories.html"> Accessories </a></li>
-                <li class="nav-item"> <a class="nav-link active pill text-dark" href="contact.html">Contact</a> </li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="hijab.html">Hijabs</a></li>
+                <li class="nav-item"><a class="nav-link" href="Abaya.html">Abayas</a></li>
+                <li class="nav-item"><a class="nav-link" href="Accessories.html">Accessories</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
-    </nav> <br>
-<br>  <br>
+    </nav>
+    <div style="margin-top: 80px;"></div>
+
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -71,11 +92,10 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
     <div class="container my-5 ">
         <div class="row align-items center">
             <div class="col -md-6 text-center">
-                <img src="Assets/hijab (1).png "  width="350px" height="340px" class="image-fluid p-2" alt="logo">
+                <img src="Assets/hijab (1).png " width="350px" height="340px" class="image-fluid p-2" alt="logo">
                 <div class="brand-circle fw-bold fs-2">HijabHub.pk</div>
             </div>
             <div class="col -md-6">
@@ -90,40 +110,45 @@
                     everyday essentials or something special, you'll find the perfect match in our beautifully designed
                     range.
                     Discover the perfect blend of modesty, style, and quality-only at <a href="contact.html"><u
-                        class="text-primary">HijabHub.pk</u></p> </a>
+                            class="text-primary">HijabHub.pk</u></p> </a>
             </div>
         </div>
     </div>
 
 
-<div >
-<img src="Assets/hijab group.jpg" class="d-block w-100"alt=""><br>
-<br>
-</div>
-<br>
-<h1 class="text-center fw-bold">Testimonials</h1>
-<div class="container my-5 ">
     <div>
-        <h3>Tube Cap</h3>
-    <p>The undercap is good but is of very thin material that slips off from head often. It needs to be pinned with hijab to keep it secure at its place.
-        (Mrs.Wardah)
-    </p>
-</div>
+        <img src="Assets/hijab group.jpg" class="d-block w-100" alt=""><br>
+        <br>
+    </div>
+    <br>
+    <h1 class="text-center fw-bold">Testimonials</h1>
+    <div class="container my-5 ">
+        <div>
+            <h3>Tube Cap</h3>
+            <p>The undercap is good but is of very thin material that slips off from head often. It needs to be pinned
+                with hijab to keep it secure at its place.
+                (Mrs.Wardah)
+            </p>
+        </div>
 
-  <div>
-        <h3> Embroidery Abaya </h3>
-    <p>The designs are described as beautiful, elegant, and timeless, suitable for diverse occasions.This abayas are often described as having a flattering fit,with a modest silhouette suitable for various body types. 
-        (Mrs.Zainab) </p>
-</div>
-  <div>
-        <h3>Silk Hijab</h3>
-    <p> Silk hijabs shimmer gracefully and drape beautifully—ideal for weddings, events, or polished everyday looks. They truly elevate any outfit.The fabric glides gently over the hair, offering a sleek feel against the skin.
-Rich, vibrant colours Silk dyes brilliantly, resulting in deep, long-lasting tones with a luminous finish 
-Reddit
-        (Miss.Ayesha)
-    </p>
-</div>
-</div>
+        <div>
+            <h3> Embroidery Abaya </h3>
+            <p>The designs are described as beautiful, elegant, and timeless, suitable for diverse occasions.This abayas
+                are often described as having a flattering fit,with a modest silhouette suitable for various body types.
+                (Mrs.Zainab) </p>
+        </div>
+        <div>
+            <h3>Silk Hijab</h3>
+            <p> Silk hijabs shimmer gracefully and drape beautifully—ideal for weddings, events, or polished everyday
+                looks. They truly elevate any outfit.The fabric glides gently over the hair, offering a sleek feel
+                against the skin.
+                Rich, vibrant colours Silk dyes brilliantly, resulting in deep, long-lasting tones with a luminous
+                finish
+                Reddit
+                (Miss.Ayesha)
+            </p>
+        </div>
+    </div>
     <footer style="background-color: #EAD9C3;">
         <div class="container p-4">
             <div class="row">
@@ -135,30 +160,29 @@ Reddit
                         essentials</p>
                 </div>
                 <div class="col-md-4">
-                <h5 class="fw-bold mb-3">Quicklinks</h5>
-                <ul class="list-unstyled">
-                    <li> <a href="index.html" class="text-dark text-decoration-none">Home</a></li>
-                    <li> <a href="hijab.html" class="text-dark text-decoration-none">Hijabs</a></li>
-                    <li> <a href="Abaya.html" class="text-dark text-decoration-none">Abayas</a></li>
-                    <li> <a href="Accessories.html" class="text-dark text-decoration-none">Accessories</a></li>
-                    <li> <a href="contact.html" class="text-dark text-decoration-none">Contact</a></li>
-                </ul>
-            </div>
-<div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Quicklinks</h5>
+                    <ul class="list-unstyled">
+                        <li> <a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+                        <li> <a href="hijab.html" class="text-dark text-decoration-none">Hijabs</a></li>
+                        <li> <a href="Abaya.html" class="text-dark text-decoration-none">Abayas</a></li>
+                        <li> <a href="Accessories.html" class="text-dark text-decoration-none">Accessories</a></li>
+                        <li> <a href="contact.html" class="text-dark text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
                     <h5 class="fw-bold mb-3">ContactUs</h5>
                     <p> Support@HijabHub.pk</p>
                     <p>+92 341 275 5097</p>
                     <p>Karachi,Pakistan</p>
-</div>
-<hr>
-<div class="text-center "> @2025 HijabHub.pk.All Rights Reserved</div>
+                </div>
+                <hr>
+                <div class="text-center "> @2025 HijabHub.pk.All Rights Reserved</div>
 
-        </div>
+            </div>
         </div>
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
